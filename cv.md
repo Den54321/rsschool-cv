@@ -16,13 +16,13 @@ void lsd_per4seg(unsigned int data )
 	x=dataa*0.001;
 	y=(dataa*0.01)-x*10;
 	z=(dataa/10)%(x*100+y*10);
-	m=dataa%(x*1000+y*100+z*10);
+	
 
 	   // if(x!=0)
 		 in_perem4bit(x);
 	     in_perem4bit(y);
 	     in_perem4bit(z);
-	     in_perem4bit(m);
+	     
 
 	
 
